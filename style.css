@@ -1,0 +1,112 @@
+table { 
+  border-collapse: collapse; 
+  border-spacing: 0; 
+}
+#board { 
+  padding: 0px; 
+  margin: 0 auto; 
+  margin-top: 25px; 
+}
+#board tr td { 
+  width: 80px; 
+  height: 80px; 
+  border: 1px solid #1c1c1c; 
+  font-family: Helvetica;  
+  font-size: 30px; 
+  text-align: center; 
+}
+#board tr td:hover { 
+  background: #e4e4e4; 
+  cursor: pointer; 
+}
+p{
+	text-align: center;
+  margin: auto;
+}
+select{
+  margin: auto;
+}
+button{
+  margin: auto;
+}
+.score{
+  text-align: center;
+  margin: auto;
+}
+.menu{
+  text-align: center;
+  margin: auto;
+}
+.game{
+  margin-top: 20px;
+}
+.design2{
+  background-color: green;
+}
+.design4{
+  background-color: red;
+}
+.design8{
+  background-color: blue;
+}
+.design16{
+  background-color: aqua;
+}
+.design32{
+  background-color: yellow;
+}
+.design64{
+  background-color: brown;
+}
+.design128{
+  background-color: tomato;
+}
+.design256{
+  background-color: gray;
+}
+.design512{
+  background-color: violet;
+}
+.design1024{
+  background-color: orange;
+}
+.design2048{
+  background-color: bisque;
+}
+
+/*body{
+      margin:0px;
+      background-color:#F9F3E3;  
+    }
+    #boardcontainer{
+      border:8px solid #D78B7D;
+      width:464px;
+      margin:0px auto;
+      position:relative;
+    }
+      .boardtile{
+      width:100px;
+      height:100px;
+      border:8px solid #D78B7D; 
+      float:left;   
+    }
+    .tile{
+      width:100px;
+      height:65px;
+      background-color:#CFC8B5;
+      z-index:50;
+      position:absolute;
+      top:0px;
+      left:0px;
+      text-align:center;                                   
+      display:none;
+      font:bold 24px arial;
+      color:#5C5B57;
+      padding-top:35px;
+    }
+    #scorediv{
+      margin:5px;
+      text-align:center;
+      font:bold 48px arial;
+      color:#CFC8B5;
+    }*/
